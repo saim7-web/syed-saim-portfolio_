@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0a0a;
+    color: #ffffff;
+}
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.intro h1 {
+    font-size: 3em;
+    color: #39ff14;
+}
+.intro span {
+    color: #00ffff;
+}
+.social a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+.about, .projects {
+    padding: 40px 20px;
+    background: #1a1a1a;
+    margin-top: 20px;
+}
+h2 {
+    color: #ff1493;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.project-card {
+    background: #2b2b2b;
+    border-left: 5px solid #00ffff;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 700px;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #121212;
+    color: #aaa;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #39ff14;
+    box-shadow: 0 0 20px #00ffff;
+    margin-bottom: 20px;
+}
+
+.resume, .certifications {
+    padding: 40px 20px;
+    background: #181818;
+    margin-top: 20px;
+    color: #fff;
+}
+.download-btn {
+    background: #00ffff;
+    color: #000;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.download-btn:hover {
+    background: #39ff14;
+    color: #000;
+}
+.certifications ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.certifications li {
+    margin-bottom: 10px;
+    border-left: 4px solid #ff1493;
+    padding-left: 12px;
+}
